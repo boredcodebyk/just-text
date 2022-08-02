@@ -1,0 +1,29 @@
+{
+	"name": "justtext",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"package": "svelte-kit package",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
+		"svelte": "^3.44.0",
+		"svelte-check": "^2.7.1",
+		"typescript": "^4.7.4",
+		"vite": "^3.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@mdi/js": "^7.0.96",
+		"@types/pouchdb": "^6.4.0",
+		"pouchdb": "^7.3.0",
+		"pouchdb-svelte": "^7.2.2-alpha0.0.1",
+		"svelte-materialify": "^0.3.11",
+		"vite-plugin-require": "^1.0.1"
+	}
+}
